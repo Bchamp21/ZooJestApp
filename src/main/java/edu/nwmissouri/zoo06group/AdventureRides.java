@@ -5,12 +5,13 @@ package edu.nwmissouri.zoo06group;
  *
  * @author Bhuvan Chandra Sarakam
  */
-public class AdventureRide extends AbstractGame {
+public class AdventureRides extends AbstractGame {
     
     int players;
     double priceOfTicket;
     String ticketType;
     
+    @override
     public void resultOfGame(){
     }
     
