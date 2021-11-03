@@ -19,7 +19,7 @@ public abstract class Animal {
      *
      * We limit the choices for selection by using an enum
      */
-    protected AnimalGender gender;
+    
 
     /**
      * Animal constructor
@@ -28,7 +28,7 @@ public abstract class Animal {
      */
     public Animal(String name) {
         this.name = name;
-        this.gender = AnimalGender.UNKNOWN;
+        
 
     }
 
@@ -55,24 +55,5 @@ public abstract class Animal {
         return name;
     }
 
-    /**
-     * Get the animal gender.
-     *
-     * @see edu.nwmissouri.zoo04lab.AnimalGender
-     * @return the gender
-     */
-    public AnimalGender getGender() {
-        return gender;
-    }
-
-    /**
-     * Set the animal gender using an enum
-     *
-     * @see edu.nwmissouri.zoo04lab.AnimalGender
-     * @param gender the gender to set
-     */
-    public void setGender(AnimalGender gender) {
-        this.gender = gender;
-    }
 
 }
