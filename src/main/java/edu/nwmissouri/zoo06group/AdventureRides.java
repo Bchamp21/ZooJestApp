@@ -11,6 +11,7 @@ public class AdventureRide extends AbstractGame {
     double priceOfTicket;
     String ticketType;
     
+    @override
     public void resultOfGame(){
     }
     
