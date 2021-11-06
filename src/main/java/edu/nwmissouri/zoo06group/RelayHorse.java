@@ -29,5 +29,9 @@ public class RelayHorse extends Animal {
     public void move() {
         System.out.println("When I move, I Run, Run, Run.");
     }
+
+    void profess() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
