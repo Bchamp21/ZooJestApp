@@ -11,11 +11,17 @@ public class AdventureRides extends AbstractGame {
     double priceOfTicket;
     String ticketType;
     
-    @override
-    public void resultOfGame(){
+    @Override
+    public String resultOfGame(){
+        return "You never Loose";
     }
     
     public String onlineBooking(){
     return "Your ticket is booked";
+    }
+
+    @Override
+    public void run() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }

@@ -139,7 +139,7 @@ public class ZooIndexController {
                 RelayHorseGroup.run();
             }
             
-            default -> {
+          default -> {
             }
         }
 
@@ -149,4 +149,4 @@ public class ZooIndexController {
         String stringOutput = newStream.toString();
         return stringOutput;
     }
-}
+
