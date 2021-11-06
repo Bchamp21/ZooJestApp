@@ -10,8 +10,29 @@ package edu.nwmissouri.zoo06group;
  */
 public class PanicRoom extends AdventureRides {
     int numberOfRooms;
+     @Override
+    public String resultOfGame(){
+        System.out.println("You won the game");
+        return "You never Loose";
+    }
     
-    public boolean darkRoom(){
+    @Override
+    public  String onlineBooking(){
+         System.out.println("Welcome to adventure rides");
+    return "Your ticket is booked";
+    }
+
+    
+    public static boolean darkRoom(){
+        System.out.println("Enter the dark room");
         return true;
+    }
+
+    public int getNumberOfRooms() {
+        return numberOfRooms;
+    }
+
+    public void setNumberOfRooms(int numberOfRooms) {
+        this.numberOfRooms = numberOfRooms;
     }
 }

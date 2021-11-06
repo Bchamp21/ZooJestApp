@@ -17,15 +17,22 @@ public class RockClimbing extends AdventureRides {
     public void run() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-     @Override
+    @Override
     public String resultOfGame(){
+        System.out.println("You won the game");
         return "You never Loose";
     }
-     public String onlineBooking(){
+    
+    @Override
+    public  String onlineBooking(){
+         System.out.println("Welcome to adventure rides");
     return "Your ticket is booked";
     }
-    public double climb(){
+    
+    
+    public static double climb(){
        double a=0;
+       System.out.println("You reached maximum height");
         return a;
     }
     

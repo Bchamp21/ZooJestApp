@@ -17,21 +17,23 @@ public class ShootingArcade extends AdventureRides{
     public void run() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    public void speed()
+    public static void speed()
     {
         System.out.println("BulletSpeed");
                
     }
     
     
-    public String onlineBooking(){
-    return "Your ticket is booked";
-    }
-
-    @Override
+     @Override
     public String resultOfGame(){
         return "You never Loose";
     }
+    
+    public  String onlineBooking(){
+         System.out.println("Welcome to adventure rides");
+    return "Your ticket is booked";
+    }
+
     
     
     
