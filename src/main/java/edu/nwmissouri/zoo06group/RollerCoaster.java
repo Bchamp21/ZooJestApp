@@ -12,6 +12,31 @@ public class RollerCoaster {
     private int wheels;
     private int players;
     private String ticketType;
+
+    public int getWheels() {
+        return wheels;
+    }
+
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+    public int getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(int players) {
+        this.players = players;
+    }
+
+    public String getTicketType() {
+        return ticketType;
+    }
+
+    public void setTicketType(String ticketType) {
+        this.ticketType = ticketType;
+    }
+    
     
      @Override
     public String resultOfGame(){

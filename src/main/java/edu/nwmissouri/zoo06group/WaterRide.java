@@ -14,15 +14,38 @@ public class WaterRide extends AbstractGame {
     private double priceOfTicket;
     private String ticketType;
     
-    @Override
+    public int getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(int players) {
+        this.players = players;
+    }
+
+    public double getPriceOfTicket() {
+        return priceOfTicket;
+    }
+
+    public void setPriceOfTicket(double priceOfTicket) {
+        this.priceOfTicket = priceOfTicket;
+    }
+
+    public String getTicketType() {
+        return ticketType;
+    }
+
+    public void setTicketType(String ticketType) {
+        this.ticketType = ticketType;
+    }
+     @Override
     public String resultOfGame(){
         return "You never Loose";
     }
     
     public String onlineBooking(){
-    return "Your ticket is booked";
+        return "Your ticket is booked";
     }
-
+  
     @Override
     public void run() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
