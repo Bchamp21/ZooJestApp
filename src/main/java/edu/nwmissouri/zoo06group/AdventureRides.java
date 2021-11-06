@@ -16,7 +16,7 @@ public class AdventureRides extends AbstractGame {
         return "You never Loose";
     }
     
-    public static String onlineBooking(){
+    public  String onlineBooking(){
          System.out.println("Welcome to adventure rides");
     return "Your ticket is booked";
     }

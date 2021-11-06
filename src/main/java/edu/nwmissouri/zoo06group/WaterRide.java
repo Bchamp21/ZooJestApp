@@ -39,10 +39,12 @@ public class WaterRide extends AbstractGame {
     }
      @Override
     public String resultOfGame(){
+       System.out.println("Welcome to Water rides");
         return "You never Loose";
     }
     
     public String onlineBooking(){
+        System.out.println("Please book your tickets online");
         return "Your ticket is booked";
     }
   

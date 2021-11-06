@@ -6,9 +6,20 @@ package edu.nwmissouri.zoo06group;
 
 /**
  *
- * @author Himaja Reddy Maddi
+ * @author Revanth pagilla
  */
-public class JungleRiveBattle {
+public class JungleRiveBattle extends WaterRide {
+   
     public double distance;
     
+    @Override
+    public String resultOfGame(){
+        System.out.println("Congratulation in winning the game");
+        return "You never Loose";
+    }
+    
+    public String onlineBooking(){
+        System.out.println("Please book your tickets online");
+        return "Your ticket is booked";
+    }
 }

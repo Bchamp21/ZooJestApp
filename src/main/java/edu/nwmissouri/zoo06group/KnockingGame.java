@@ -6,11 +6,20 @@ package edu.nwmissouri.zoo06group;
 
 /**
  *
- * @author Himaja Reddy Maddi
+ * @author Revanth pagilla
  */
-public class KnockingGame {
+public class KnockingGame extends WaterRide {
     public int hammer;
+    @Override
+    public String resultOfGame(){
+        System.out.println("Congratulation in winning the game");
+        return "You never Loose";
+    }
     
+    public String onlineBooking(){
+        System.out.println("Please book your tickets online");
+        return "Your ticket is booked";
+    }
     public static boolean hit(){
         System.out.println("Start the game by hitting");
         return false;

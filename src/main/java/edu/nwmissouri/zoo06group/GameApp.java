@@ -79,6 +79,26 @@ public class GameApp {
                         GiraffeGroup.create();
                         GiraffeGroup.run();
                     }
+                   case 2 -> {
+                        HippopotamusGroup.create();
+                        HippopotamusGroup.run();
+                    }
+                   case 3 -> {
+                        LionGroup.create();
+                        LionGroup.run();
+                    }
+                   case 4 -> {
+                        RelayHorseGroup.create();
+                        RelayHorseGroup.run();
+                    }
+                   case 5 -> {
+                        CheetahGroup.create();
+                        CheetahGroup.run();
+                    }
+                   case 6 -> {
+                        LigerGroup.create();
+                        LigerGroup.run();
+                    }
                     default -> {
                     }
 
@@ -125,9 +145,18 @@ public class GameApp {
                 isValid = typeNumberInput >= 1 && typeNumberInput <= NUMBER_ANIMAL_TYPES;
                 
                 // switch by animal type - autogenerate with ZooBuildSwitch.java
+                AdventureRides ad= new AdventureRides();
+                WaterRide wd= new WaterRide();
+                
                 switch (typeNumberInput) {
                    case 1 -> {
-                        AdventureRides.onlineBooking();
+                        ad.resultOfGame();
+                        ad.onlineBooking();
+                   }
+                   case 2 -> {
+                        wd.resultOfGame();
+                        wd.onlineBooking();
+                       
                    }
                     default -> {
                     }
@@ -174,11 +203,23 @@ public class GameApp {
                 // switch by animal type - autogenerate with ZooBuildSwitch.java
                 switch (typeNumberInput1) {
                    case 1 -> {
-                        SplashMountain.speed();
+                        RollerCoaster.rotations();
                                            }
                    case 2 -> {
                  
-                        JungleCruze.speed();
+                        RockClimbing.climb();
+                   }
+                   case 3 -> {
+                 
+                        ShootingArcade.speed();
+                   }
+                   case 4 -> {
+                 
+                        PanicRoom.darkRoom();
+                   }
+                   case 5 -> {
+                 
+                        SkeeBallGame.goal();
                    }
                    
                     default -> {
@@ -213,8 +254,8 @@ public class GameApp {
                 System.out.println("Enter a number to choose, 0 to exit.");
                 System.out.println(" 1.SplashMountain            ");
                 System.out.println(" 2.JungleCruze            ");
-                 System.out.println(" 3.JungleRiveBattle            ");
-                  System.out.println(" 4.KnockingGame            ");
+                 System.out.println(" 3.KnockingGame            ");
+                  System.out.println(" 4.JungleRiveBattle            ");
 
                 
                 try {
@@ -235,6 +276,11 @@ public class GameApp {
                  
                         JungleCruze.speed();
                    }
+                   case 3 -> {
+                 
+                        KnockingGame.hit();
+                   }
+                   
                    
                     default -> {
                     }
