@@ -8,7 +8,7 @@ package edu.nwmissouri.zoo06group;
  *
  * @author S545118
  */
-public class RockClimbing extends AbstractGame {
+public class RockClimbing extends AdventureRides {
      private double length;
      private int players;
      private String ticketType;
