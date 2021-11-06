@@ -6,7 +6,7 @@ package edu.nwmissouri.zoo06group;
 
 /**
  *
- * @author S545118
+ * @author Srilekha Janagam
  */
 public class RockClimbing extends AdventureRides {
      private double length;
