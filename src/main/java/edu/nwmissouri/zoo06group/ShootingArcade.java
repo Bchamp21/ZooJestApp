@@ -8,7 +8,7 @@ package edu.nwmissouri.zoo06group;
  *
  * @author Srilekha Janagam
  */
-public class ShootingArcade extends AbstractGame{
+public class ShootingArcade extends AdventureRides{
     private int players;
     private int bullets;
     private String ticketType;
@@ -22,6 +22,8 @@ public class ShootingArcade extends AbstractGame{
         System.out.println("BulletSpeed");
                
     }
+    
+    
     public String onlineBooking(){
     return "Your ticket is booked";
     }
