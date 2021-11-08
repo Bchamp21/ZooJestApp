@@ -15,7 +15,7 @@ public class Cheetah extends Animal {
 
     /**
      * Cheetah constructor 
-     * @param name - the name of this aardvark
+     * @param name - the name of this Cheetah
      */
     public Cheetah(String name) {
         super(name);
@@ -23,7 +23,7 @@ public class Cheetah extends Animal {
 
     @Override
     public void speak() {
-        System.out.printf("I'm %s. I'm an Aardvark!", this.name);
+        System.out.printf("I'm %s. I'm an Cheetah!", this.name);
     }
 
     @Override
