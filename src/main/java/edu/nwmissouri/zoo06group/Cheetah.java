@@ -8,6 +8,7 @@ package edu.nwmissouri.zoo06group;
 
 
 /**
+ * Cheetah Class (derived subclass of the superclass Animal)
  *
  * @author Srilekha Janagam
  */
