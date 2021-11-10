@@ -41,13 +41,13 @@ public class WaterRideTest {
      */
     @Test
     public void testGetPlayers() {
-        System.out.println("getPlayers");
+        System.out.println("players");
         WaterRide instance = new WaterRide();
         int expResult = 0;
         int result = instance.getPlayers();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -55,12 +55,12 @@ public class WaterRideTest {
      */
     @Test
     public void testSetPlayers() {
-        System.out.println("setPlayers");
+        System.out.println("players");
         int players = 0;
         WaterRide instance = new WaterRide();
         instance.setPlayers(players);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -68,13 +68,13 @@ public class WaterRideTest {
      */
     @Test
     public void testGetPriceOfTicket() {
-        System.out.println("getPriceOfTicket");
+        System.out.println("priceOfTicket");
         WaterRide instance = new WaterRide();
         double expResult = 0.0;
         double result = instance.getPriceOfTicket();
         assertEquals(expResult, result, 0.0);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -82,12 +82,12 @@ public class WaterRideTest {
      */
     @Test
     public void testSetPriceOfTicket() {
-        System.out.println("setPriceOfTicket");
+        System.out.println("priceOfTicket");
         double priceOfTicket = 0.0;
         WaterRide instance = new WaterRide();
         instance.setPriceOfTicket(priceOfTicket);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -97,11 +97,11 @@ public class WaterRideTest {
     public void testGetTicketType() {
         System.out.println("getTicketType");
         WaterRide instance = new WaterRide();
-        String expResult = "";
+        String expResult = null;
         String result = instance.getTicketType();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -110,11 +110,11 @@ public class WaterRideTest {
     @Test
     public void testSetTicketType() {
         System.out.println("setTicketType");
-        String ticketType = "";
+        String ticketType = "ticketType";
         WaterRide instance = new WaterRide();
         instance.setTicketType(ticketType);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
 
     /**
@@ -122,13 +122,13 @@ public class WaterRideTest {
      */
     @Test
     public void testResultOfGame() {
-        System.out.println("resultOfGame");
+        System.out.println("Welcome to Water rides");
         WaterRide instance = new WaterRide();
-        String expResult = "";
+        String expResult = "You never Loose";
         String result = instance.resultOfGame();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
 
     /**
@@ -136,25 +136,25 @@ public class WaterRideTest {
      */
     @Test
     public void testOnlineBooking() {
-        System.out.println("onlineBooking");
+        System.out.println("Please book your tickets online");
         WaterRide instance = new WaterRide();
-        String expResult = "";
+        String expResult = "Your ticket is booked";
         String result = instance.onlineBooking();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       // fail("The test case is a prototype.");
     }
 
     /**
      * Test of run method, of class WaterRide.
      */
-    @Test
+   /* @Test
     public void testRun() {
         System.out.println("run");
         WaterRide instance = new WaterRide();
         instance.run();
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
+        //fail("The test case is a prototype.");
+    }*/
     
 }

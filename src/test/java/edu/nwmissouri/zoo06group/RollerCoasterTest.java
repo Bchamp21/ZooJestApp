@@ -13,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author S545019
+ * @author Nikhil Krishnan Venkatesh
  */
 public class RollerCoasterTest {
     

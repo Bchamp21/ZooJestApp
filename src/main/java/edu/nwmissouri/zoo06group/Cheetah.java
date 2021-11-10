@@ -8,6 +8,7 @@ package edu.nwmissouri.zoo06group;
 
 
 /**
+ * Cheetah Class (derived subclass of the superclass Animal)
  *
  * @author Srilekha Janagam
  */
@@ -20,12 +21,17 @@ public class Cheetah extends Animal {
     public Cheetah(String name) {
         super(name);
     }
+    /**
+     * speak method
+     */
 
     @Override
     public void speak() {
         System.out.printf("I'm %s. I'm an Cheetah!", this.name);
     }
-
+/**
+ * move method
+ */
     @Override
     public void move() {
         System.out.println("When I move, I walk, walk, walk.");;//To change body of generated methods, choose Tools | Templates.
