@@ -1,7 +1,7 @@
 # ZooJestApp
 A group app for abstract classes with adventure and water rides
 
-API Link:
+Git Hub Profiles:
 [Bhuvan GitHub](https://github.com/Bchamp21/ZooJestApp)
 [Himaja Reddy GitHub](https://github.com/HimajaReddyMaddi/ZooJestApp)
 [Indu Reddy GitHub](https://github.com/InduReddyCh/ZooJestApp)
