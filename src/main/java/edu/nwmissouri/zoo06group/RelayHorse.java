@@ -33,5 +33,11 @@ public class RelayHorse extends Animal {
     void profess() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
+    double getRelayHorseAddition(double first, int second) {
+        return first+second;
+//        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     
 }
