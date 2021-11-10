@@ -12,6 +12,22 @@ public abstract class AbstractGame implements Runnable {
         this.players = players;
         this.ticketType = ticketType;
     }
+
+    public int getPlayers() {
+        return players;
+    }
+
+    public void setPlayers(int players) {
+        this.players = players;
+    }
+
+    public String getTicketType() {
+        return ticketType;
+    }
+
+    public void setTicketType(String ticketType) {
+        this.ticketType = ticketType;
+    }
     
     
     public String resultOfGame(){

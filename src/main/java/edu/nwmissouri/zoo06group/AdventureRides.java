@@ -7,9 +7,9 @@ package edu.nwmissouri.zoo06group;
  */
 public class AdventureRides extends AbstractGame {
     
-    int players;
-    double priceOfTicket;
-    String ticketType;
+    
+    private double priceOfTicket;
+    
     
     @Override
     public String resultOfGame(){
