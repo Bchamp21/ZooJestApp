@@ -1,8 +1,10 @@
 # ZooJestApp
-A group app for abstract classes with adventure and water rides
+> Welcome to our Zoo
+- A group app for abstract classes with adventure and water rides
 
-# API Link:
-[ZooJestApp](https://github.com/Bchamp21/ZooJestApp)
+## API
+
+- Explore API at [ZooJestApp](https://github.com/Bchamp21/ZooJestApp)
 
 # Git Hub Profiles:
 [Bhuvan](https://github.com/Bchamp21/ZooJestApp)
