@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *SplashMountain class (derived subclass of the superclass WaterRide)
  * @author Himaja Reddy Maddi
  */
 public class SplashMountain extends WaterRide{

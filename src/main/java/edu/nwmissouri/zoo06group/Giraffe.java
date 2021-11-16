@@ -21,11 +21,18 @@ public class Giraffe extends Animal {
         super(name);
     }
 
+    /**
+     * Custom speak method
+     */
+    
     @Override
     public void speak() {
         System.out.printf("I'm %s. I'm giraffe!", this.name);
     }
 
+    /**
+     * Custom move method
+     */
     @Override
     public void move() {
         System.out.println("When I move, I run, run, run.");

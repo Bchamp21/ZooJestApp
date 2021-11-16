@@ -4,7 +4,7 @@ import edu.nwmissouri.zoo06group.Lion;
 import java.util.ArrayList;
 
 /**
- *
+ *Provides methods to create and run a group of Lion
  * @author Nikhil KrishnanVenkatesh
  */
 public class LionGroup {

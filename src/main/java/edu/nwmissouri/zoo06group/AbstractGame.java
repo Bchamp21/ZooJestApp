@@ -1,7 +1,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *AbstractGame class (abstract class for Game App)
  * @author Bhuvan Chandra Sarakam
  */
 public abstract class AbstractGame implements Runnable {
@@ -29,7 +29,11 @@ public abstract class AbstractGame implements Runnable {
         this.ticketType = ticketType;
     }
     
-    
+    /**
+     * Custom Abstract function function providing the result of game
+     *
+     * @return result of Game
+     */
     public String resultOfGame(){
         return "You Won !";
     }

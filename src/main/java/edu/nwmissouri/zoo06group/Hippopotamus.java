@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *Hippopotamus class (derived subclass of the superclass Animal)
  * @author Indu Chinthakuntla
  */
 public class Hippopotamus extends Animal {
@@ -18,15 +18,27 @@ public class Hippopotamus extends Animal {
 
     }
 
+    
+    /**
+     * Custom speak method
+     */
     @Override
     public void speak() {
         System.out.println("I'm an Hippopotamus!");
     }
 
+    
+    /**
+     * Custom move method
+     */
     @Override
     public void move() {
         System.out.println("When I move, I walk, walk, walk.");
     }
+    
+    /**
+     * Custom profess method
+     */
     public void profess() {
         double a = 2.5;
         int b = 2;

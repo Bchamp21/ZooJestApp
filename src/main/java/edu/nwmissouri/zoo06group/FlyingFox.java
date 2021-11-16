@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *FlyingFox an enum having HEIGHT attribute
  * @author Indu Chinthakuntla
  */
 public enum FlyingFox {

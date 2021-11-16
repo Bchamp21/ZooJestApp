@@ -4,7 +4,7 @@ import edu.nwmissouri.zoo06group.Cheetah;
 import java.util.ArrayList;
 
 /**
- *
+ *Provides methods to create and run a group of CheetahGroup
  * @author Srilekha Janagam
  */
 public class CheetahGroup {

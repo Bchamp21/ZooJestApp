@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *PanicRoom class (derived subclass of the superclass WaterRide)
  * @author Indu Chinthakuntla
  */
 public class PanicRoom extends AdventureRides {

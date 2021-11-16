@@ -2,7 +2,7 @@ package edu.nwmissouri.zoo06group;
 import java.util.ArrayList;
 
 /**
- * Provides methods to create and run a group of Aardvarks
+ * Provides methods to create and run a group of Liger
  *
  * @author Revanth Pagilla
  */

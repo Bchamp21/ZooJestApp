@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *Lion class (derived subclass of the superclass Animal)
  * @author Nikhil KrishnanVenkatesh
  */
 public class Lion extends Animal {
@@ -19,11 +19,19 @@ public class Lion extends Animal {
         super(name);
     }
 
+    
+    /**
+     * Custom speak method
+     */
     @Override
     public void speak() {
         System.out.printf("I'm %s. I'm an Aardvark!", this.name);
     }
 
+    
+    /**
+     * Custom move method
+     */
     @Override
     public void move() {
         System.out.println("When I move, I walk, walk, walk.");

@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *RockClimbing class (derived subclass of the superclass AdventureRides)
  * @author Srilekha Janagam
  */
 public class RockClimbing extends AdventureRides {

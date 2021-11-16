@@ -6,7 +6,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *Liger class (derived subclass of the superclass Animal)
  * @author RevanthPagilla
  */
 public class Liger extends Animal {
@@ -19,11 +19,17 @@ public class Liger extends Animal {
         super(name);
     }
 
+    /**
+     * Custom move method
+     */
     @Override
     public void move() {
         System.out.println("I will climb trees ");
     }
 
+    /**
+     * Custom speak method
+     */
     @Override
     public void speak() {
          System.out.printf("I'm %s. I'm an Liger! \n", this.name);

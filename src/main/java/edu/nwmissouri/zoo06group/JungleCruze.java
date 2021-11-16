@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *JungleCruze class (derived subclass of the superclass WaterRide)
  * @author Himaja Reddy Maddi
  */
 public class JungleCruze extends WaterRide{

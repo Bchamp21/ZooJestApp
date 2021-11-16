@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 import java.util.Scanner;
 /**
- *
+ *Provides methods to create for implementing Games
  * @author Himaja Reddy Maddi
  */
 public class GameApp {

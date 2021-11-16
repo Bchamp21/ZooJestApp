@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *SkeeBallGame class (derived subclass of the superclass AdventureRides)
  * @author Indu Chinthakuntla
  */
 public class SkeeBallGame extends AdventureRides{

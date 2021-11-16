@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *ShootingArcade class (derived subclass of the superclass AdventureRides)
  * @author Srilekha Janagam
  */
 public class ShootingArcade extends AdventureRides{

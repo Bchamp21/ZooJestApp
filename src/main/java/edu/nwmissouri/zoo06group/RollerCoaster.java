@@ -5,7 +5,7 @@
 package edu.nwmissouri.zoo06group;
 
 /**
- *
+ *RollerCoaster class (derived subclass of the superclass AdventureRides)
  * @author Nikhil Krishnan Venkatesh
  */
 public class RollerCoaster extends AdventureRides{
@@ -38,18 +38,33 @@ public class RollerCoaster extends AdventureRides{
     }
     
     
+      /**
+     * Custom RollerCoaster function providing result of game
+     *
+     * @return result of game
+     */
    @Override
     public String resultOfGame(){
         System.out.println("You won the game");
         return "You never Loose";
     }
     
+    /**
+     * Custom RollerCoaster function giving details of online booking
+     *
+     * @return Details of booked ticket
+     */
     @Override
     public  String onlineBooking(){
          System.out.println("Welcome to adventure rides");
     return "Your ticket is booked";
     }
     
+    /**
+     * Custom RollerCoaster function giving details of number of rotations
+     *
+     * @return Details of rotations
+     */
     public static int rotations(){
         System.out.println("You successfully stayed alive");
     return 0;
