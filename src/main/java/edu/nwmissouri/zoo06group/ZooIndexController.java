@@ -21,7 +21,7 @@ public class ZooIndexController {
 
     private static final String GREETING_MESSAGE = "Welcome to our 542 Zoo!";
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
-    private static final int NUMBER_ANIMAL_TYPES = 60;
+    private static final int NUMBER_ANIMAL_TYPES = 6;
 
     /**
      * The @GetMapping annotation ensures that HTTP GET requests to / are mapped
@@ -71,20 +71,14 @@ public class ZooIndexController {
      *
      * @return filename from src/main/resources/templates folder
      */
-    @GetMapping(path = "/persons")
-    public String persons() {
-        return "persons";
-    }
+
 
     /**
      * Map GET request to "/rides" to rides() method.
      *
      * @return filename from src/main/resources/templates folder
      */
-    @GetMapping(path = "/rides")
-    public String rides() {
-        return "rides";
-    }
+  
 
     /**
      * Map GET request to "/vehicles" to vehicles() method.
