@@ -25,7 +25,7 @@ public class RelayHorse extends Animal {
      */
     @Override
     public void speak() {
-        System.out.printf("\nI'm %s. I'm an RelayHorse!\n", this.name);
+        System.out.printf("I'm an RelayHorse!\n", this.name);
     }
     
     
@@ -41,7 +41,7 @@ public class RelayHorse extends Animal {
      * Custom profess method
      */
     void profess() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
      /**

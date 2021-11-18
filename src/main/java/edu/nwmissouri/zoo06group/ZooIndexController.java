@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class ZooIndexController {
 
-    private static final String GREETING_MESSAGE = "Welcome to our 542 Zoo!";
+    private static final String GREETING_MESSAGE = "Welcome to our Zoo games!";
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
     private static final int NUMBER_ANIMAL_TYPES = 60;
 
@@ -71,30 +71,30 @@ public class ZooIndexController {
      *
      * @return filename from src/main/resources/templates folder
      */
-    @GetMapping(path = "/persons")
-    public String persons() {
-        return "persons";
-    }
+//    @GetMapping(path = "/persons")
+//    public String persons() {
+//        return "persons";
+//    }
 
     /**
      * Map GET request to "/rides" to rides() method.
      *
      * @return filename from src/main/resources/templates folder
      */
-    @GetMapping(path = "/rides")
-    public String rides() {
-        return "rides";
-    }
+//    @GetMapping(path = "/rides")
+//    public String rides() {
+//        return "rides";
+//    }
 
     /**
      * Map GET request to "/vehicles" to vehicles() method.
      *
      * @return filename from src/main/resources/templates folder
      */
-    @GetMapping(path = "/vehicles")
-    public String vehicles() {
-        return "vehicles";
-    }
+//    @GetMapping(path = "/vehicles")
+//    public String vehicles() {
+//        return "vehicles";
+//    }
 
     private String getCustomAnimalGroup(String id) {
         // Create a stream to hold the output
@@ -138,7 +138,73 @@ public class ZooIndexController {
                 RelayHorseGroup.create();
                 RelayHorseGroup.run();
             }
+            case 7 -> {
+                KnockingGame k= new KnockingGame();
+                
+                k.resultOfGame();
+                k.onlineBooking();
+                KnockingGame.hit();
+            }
             
+            case 8 -> {
+                JungleCruze k= new JungleCruze();
+               
+                k.resultOfGame();
+                k.onlineBooking();
+                JungleCruze.speed();
+            }
+            case 9 -> {
+                JungleRiveBattle k= new JungleRiveBattle();
+        
+                k.resultOfGame();
+                k.onlineBooking();
+               
+            }
+            
+            case 10 -> {
+                RockClimbing k= new RockClimbing();
+                
+                k.resultOfGame();
+                k.onlineBooking();
+                RockClimbing.climb();
+            }
+            case 11 -> {
+                RollerCoaster k= new RollerCoaster();
+                
+                k.resultOfGame();
+                k.onlineBooking();
+                RollerCoaster.rotations();
+            }
+            case 12 -> {
+                ShootingArcade k= new ShootingArcade();
+                
+                k.resultOfGame();
+                k.onlineBooking();
+                ShootingArcade.speed();
+            }
+            case 13 -> {
+                SkeeBallGame k= new SkeeBallGame();
+                
+                k.resultOfGame();
+                k.onlineBooking();
+                SkeeBallGame.goal();
+            }
+            case 14 -> {
+                SplashMountain k= new SplashMountain();
+               
+                k.resultOfGame();
+                k.onlineBooking();
+                SplashMountain.speed();
+            }
+            
+            case 15 -> {
+                PanicRoom k= new PanicRoom();
+               
+                k.resultOfGame();
+                k.onlineBooking();
+                PanicRoom.darkRoom();
+            }
+           
           default -> {
             }
         }

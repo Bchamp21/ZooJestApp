@@ -25,7 +25,7 @@ public class Lion extends Animal {
      */
     @Override
     public void speak() {
-        System.out.printf("I'm %s. I'm an Aardvark!", this.name);
+        System.out.printf("I'm Brown. I'm an Lion!", this.name);
     }
 
     
